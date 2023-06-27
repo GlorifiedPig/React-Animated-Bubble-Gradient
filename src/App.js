@@ -1,11 +1,21 @@
-function BubbleGradient() {
+function Bubble() {
   return (
-    <div className="w-64 h-64 bg-gradient-to-r from-green-400 to-blue-500 rounded-full"></div>
-  )
+    <div className="w-64 h-64 bg-blue-500 rounded-full"></div>
+  );
 }
 
-export default function App() {
-  return (
-    <BubbleGradient/>
-  )
+function Blur() {
+  
 }
+
+function Background() {
+
+}
+
+function App() {
+  return (
+    <Bubble/>
+  );
+}
+
+export default App;
